@@ -55,10 +55,11 @@ jar cmf Game/manifest.txt game.jar -C target .
 **********************************************************
 
 ## Start the game
-just copy this in unix terminal 
-
+Copy this line in unix terminal 
+**********************************************************
 java -jar game.jar --enemiesCount=10 --wallsCount=10 --size=30 --profile=production
 
+**********************************************************
 
 You may change parameters as you want
 --enemiesCount=
