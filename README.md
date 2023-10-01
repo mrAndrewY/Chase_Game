@@ -4,24 +4,26 @@ Simple terminal game has been written on Java for fun and pleasure
 ![Commands1](images/chaseGame.png)
 
 
-#2 Rules
-You (player):
+## Rules
+**You** (player):
 
 ![player](images/player.png)
 
-have to get to:
+Have to get to the **goal**:
 
 ![goal](images/goal.png)
 
-your enemy rather angry and stupid, tries to terminate you:
+Your **enemy** rather angry and stupid, tries to terminate you:
 
 ![enemy](images/enemy.png)
 
-walls can help you to run away:
+**Walls** can help you to run away:
+
 ![walls](images/walls.png)
 
-#2 How to play
-lets use these keys to move
+## How to play
+Lets use these keys to move:
+
 ![Commands1](images/commands.png)
 
 1) Up - 5
@@ -29,11 +31,13 @@ lets use these keys to move
 3) Left - 1
 4) right - 3
 
-for making a step just push enter
-![Commands2](images/enter.png)
+For making a step just **push enter**:
 
-#2 Installing the game
-1) just copy these instructions in unix terminal and push enter
+![Commands2](images/command_enter.png)
+
+## Installing the game
+
+1) Just copy these instructions(beetwen two lines) in unix terminal and push enter
 ***********************************************************
 mkdir target
 
@@ -48,9 +52,9 @@ rm -rf META-INF
 cd ..
 
 jar cmf Game/manifest.txt game.jar -C target .
-****************************************************
+**********************************************************
 
-#2 Start the game
+## Start the game
 just copy this in unix terminal 
 
 java -jar game.jar --enemiesCount=10 --wallsCount=10 --size=30 --profile=production
@@ -61,3 +65,5 @@ You may change parameters as you want
 --wallsCount=
 --size=
 
+
+**I hope you will have fun!**
